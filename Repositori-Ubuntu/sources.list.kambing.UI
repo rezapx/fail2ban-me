@@ -1,0 +1,19 @@
+### sources.list.kambing
+### Repository dengan menggunakan server mirror kambing.ui.edu
+### Untuk rilis lain selain xenial silakan ganti semua kata xenial 
+### dengan misalnya dapper atau feisty dsb
+
+## REPOSITORY UTAMA
+deb http://kambing.ui.ac.id/ubuntu xenial main restricted universe multiverse
+deb-src http://kambing.ui.ac.id/ubuntu xenial main restricted universe multiverse
+
+## INI UNTUK MAJOR BUG FIX UPDATES
+deb http://kambing.ui.ac.id/ubuntu xenial-updates main restricted universe multiverse
+deb-src http://kambing.ui.ac.id/ubuntu xenial-updates main restricted universe multiverse
+
+## INI UNTUK UBUNTU SECURITY UPDATES 
+deb http://kambing.ui.ac.id/ubuntu xenial-security main restricted universe multiverse
+deb-src http://kambing.ui.ac.id/ubuntu xenial-security main restricted universe multiverse
+
+deb http://kambing.ui.ac.id/ubuntu/ xenial-backports main restricted universe multiverse
+deb http://kambing.ui.ac.id/ubuntu/ xenial-proposed main restricted universe multiverse 
